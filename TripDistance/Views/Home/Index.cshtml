@@ -1,0 +1,28 @@
+﻿@section scripts {
+    @Scripts.Render("~/bundles/app")
+}
+
+<div class="page-header">
+    <h1>Trip Distance App</h1>
+</div>
+
+<div class="row">
+
+    <div class="col-md-4">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h2 class="panel-title"></h2>
+            </div>
+            <div class="panel-body">
+                <div id="select-container"></div>
+                <div id="total-container">
+                    <p>Total Distance:</p>
+                    <p id="total-distance"></p>
+                </div>
+            </div>
+            <input id="restart" type="button" value="Start Over" />
+        </div>
+        <div class="alert alert-danger"><p></p></div>
+    </div>
+
+</div>
