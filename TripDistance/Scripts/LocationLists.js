@@ -83,7 +83,7 @@ LocationLists.prototype.displayData = function (coordinate) {
             .html(stringOut)
             .css("visibility", "visible");
 
-        $('#total-distance').html(Math.round(this.totalDistance));
+        $('#total-distance').html(Math.round(this.totalDistance) + " miles");
 
         //shift the first coordinate out of the coordinates array
         this.coordinates.shift();
